@@ -12,7 +12,8 @@ import json
 import os
 import logging
 import importlib.util
-
+import sys
+sys.path.append("/content/DrQA")
 from multiprocessing import Pool as ProcessPool
 from tqdm import tqdm
 from drqa.retriever import utils
