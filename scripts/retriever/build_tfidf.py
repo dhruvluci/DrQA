@@ -12,6 +12,8 @@ import argparse
 import os
 import math
 import logging
+import sys
+sys.path.append("/content/DrQA")
 
 from multiprocessing import Pool as ProcessPool
 from multiprocessing.util import Finalize
